@@ -8,8 +8,9 @@ var numbers = "0123456789";
 var special = "!@#$%^&*()";
 var superString = "";
 
+
 function generatePassword() {
-  var confirmLowerCase = confirm("Would you like to use lowercase letters? Type Y or N");
+  var confirmLowerCase = confirm("Would you like to use lowercase letters?");
   
   var confirmUpperCase = confirm("Would you like to use uppercase letters?");
   
@@ -34,17 +35,31 @@ function generatePassword() {
 
   if (confirmNumber === true) {
     console.log("before", superString);
-    superString = superString + lowercase
+    superString = superString + numbers
     console.log("after", superString);
   }
 
   if (confirmSpecial === true) {
     console.log("before", superString);
-    superString = superString + lowercase
+    superString = superString + special
     console.log("after", superString);
   }
+  
+console.log(userAnswer5);
 
+x = userAnswer5;
+charSet = superString,
+
+        password = "";
+    for (var i = 0, n = charSet.length; i < x; ++i) {
+        password += charSet.charAt((Math.random() * n));
+    }
+  
+    return password;
 }
+
+
+
 
 
 
