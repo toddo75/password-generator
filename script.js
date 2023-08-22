@@ -32,6 +32,18 @@ function generatePassword() {
     console.log("after", superString);
   }
 
+  if (confirmNumber === true) {
+    console.log("before", superString);
+    superString = superString + lowercase
+    console.log("after", superString);
+  }
+
+  if (confirmSpecial === true) {
+    console.log("before", superString);
+    superString = superString + lowercase
+    console.log("after", superString);
+  }
+
 }
 
 
