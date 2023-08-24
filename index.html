@@ -5,18 +5,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--title of page-->
     <title>Password Generator</title>
+    <!--link to css file-->
     <link rel="stylesheet" href="style.css" />
   </head>
+  <!--Main body of webpage-->
   <body>
     <main>
+      <!--header of body-->
       <header>
         <h1>Password Generator</h1>
       </header>
+      <!--section of body, containing header, section with generated password, and footer of body with directions and generate button-->
       <section>
+        <!--header of section-->
         <section-header class="section-header">
           <h2>This Is Your Generated Password:</h2>
         </section-header>
+        <!--section of body to contain generated password-->
         <section-body class="section-body">
           <textarea
             readonly
@@ -25,16 +32,20 @@
             aria-label="Generated Password"
           ></textarea>
         </section-body>
+        <!--footer of body-->
         <footer class="card-footer">
+          <!--directions for use-->
           <directions class="directions">
             <p>Click the 'Generate Password' button below to begin!</p>
             <p>Answer the questions in the prompts.</p>
             <p>Copy and paste your generated password and store it in a safe place!</p>
           </directions>
+          <!--button to begin the process-->
           <button id="generate">Generate Password</button>
         </footer>       
       </section>
     </main>
+    <!--link to script.js file-->
     <script src="script.js"></script>
   </body>
 </html>
