@@ -49,7 +49,7 @@ see license in repo
 
 ## Credits
 
-Original coding was given to me by the bootcamp teacher.  My tutor Katherine Redford assisted me with the coding in 
+Original coding was given to me by the bootcamp such as basic flow and attributes of the page.  My tutor Katherine Redford assisted me with the coding in 
 Javascript, pointing me in the right direction.  I also used code throughout the file that I learned on my own
 with sources such as StackOverflow.
 
