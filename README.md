@@ -2,7 +2,8 @@
 
 # Description
 
-Generates a random password after user gives accepted criteria for the password.
+Given starter code from class, I finished the code and made certain it has the proper acceptance criteria 
+attributes. 
 
 ## User Story
 
@@ -45,4 +46,10 @@ https://toddo75.github.io/password-generator/
 ## License
 
 see license in repo
+
+## Credits
+
+Original coding was given to me by the bootcamp teacher.  My tutor Katherine Redford assisted me with the coding in 
+Javascript, pointing me in the right direction.  I also used code throughout the file that I learned on my own
+with sources such as StackOverflow.
 
