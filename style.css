@@ -17,7 +17,7 @@ body {
   background-color: #f9fbfd;
 }
 
-.wrapper {
+main {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -33,7 +33,7 @@ header {
   text-decoration-color: hsl(360, 91%, 36%);
 }
 
-.card {
+section {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
@@ -45,7 +45,7 @@ header {
   padding: 30px 40px;
 }
 
-.card-header::after {
+.section-header::after {
   content: " ";
   display: block;
   width: 100%;
@@ -53,15 +53,15 @@ header {
   height: 2px;
 }
 
-.card-body {
+.section-body {
   min-height: 100px;
 }
 
-.card-footer {
+footer {
   text-align: center;
 }
 
-.card-footer::before {
+footer::before {
   content: " ";
   display: block;
   width: 100%;
@@ -69,13 +69,13 @@ header {
   height: 2px;
 }
 
-.card-footer::after {
+footer::after {
   content: " ";
   display: block;
   clear: both;
 }
 
-.btn {
+button {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;

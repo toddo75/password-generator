@@ -18,7 +18,7 @@ function generatePassword() {
  
   var confirmSpecial = confirm("Would you like to use spectial characters? Click 'ok' for yes and 'cancel' for no.");
   
-  var userAnswer5 = prompt("How many characters would you like your password? Type a number between 8 and 128");
+  var userAnswer5 = prompt("How many characters would you like your password? Type a number between 8 and 128, type number and press 'ok'.");
   
 
   if (confirmLowerCase === true) {
@@ -45,12 +45,24 @@ function generatePassword() {
     console.log("after", superString);
   }
   
+  if (userAnswer5 < 8) {
+    alert("Your selection must be between 8 and 128! You must start over! Please hit 'ok'.");
+    if (confirmuseranswer5 === true)
+    return;
+    }
+
+  if (userAnswer5 > 128) {
+    alert("Your selection must be between 8 and 128! You must start over! Please hit 'ok'.");
+      f (confirmuseranswer5 === true)
+    return;
+    }
+
+
 console.log(userAnswer5);
 
 x = userAnswer5;
 charSet = superString,
-
-        password = "";
+password = "";
     for (var i = 0, n = charSet.length; i < x; ++i) {
         password += charSet.charAt((Math.random() * n));
     }
