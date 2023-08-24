@@ -36,6 +36,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Screenshot
+![pwgenerator pic](https://github.com/toddo75/password-generator/assets/139024688/3cc1716e-7321-4128-ada0-81282511599f)
 
 ## Link
 
