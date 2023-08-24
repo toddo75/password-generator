@@ -1,28 +1,30 @@
-*,
-*::before,
-*::after {
+/**cleaned up css file, put in proper order, got rid of unneeded attributes, added notes**/
+* {
   box-sizing: border-box;
 }
 
+/**sets sizes to html and body*/
 html,
-body,
-.wrapper {
+body {
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 
+/*sets font family and background color to body*/
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
+/*sets attributes to main*/
 main {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/*sets attributes to header*/
 header {
   text-align: center;
   padding: 20px;
@@ -33,6 +35,7 @@ header {
   text-decoration-color: hsl(360, 91%, 36%);
 }
 
+/*sets attributes to section*/
 section {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -45,36 +48,12 @@ section {
   padding: 30px 40px;
 }
 
-.section-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-.section-body {
-  min-height: 100px;
-}
-
+/*aligns text in footer*/
 footer {
   text-align: center;
 }
 
-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
+/*sets attributes to button*/
 button {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -91,20 +70,18 @@ button {
   cursor: pointer;
 }
 
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
+/*sets height to section in body*/
+.section-body {
+  min-height: 100px;
 }
 
+/*sets attributes to text of directions*/
 .directions {
   color: black;
   text-align: center;
 }
 
-.float-right {
-  float: right;
-}
-
+/*sets attributes to the password once generated in js*/
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -126,6 +103,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* media queries to adjust size for smaller screens*/
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
