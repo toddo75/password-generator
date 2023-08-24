@@ -5,18 +5,18 @@ var generateBtn = document.querySelector("#generate");
 var lowercase = "abcdefghijklmopqrstuvwxyz";
 var uppercase = lowercase.toUpperCase();
 var numbers = "0123456789";
-var special = "!@#$%^&*()";
+var special = "!@#$%&*+,-./:;<=>?\^_`{|}~";
 var superString = "";
 
 
 function generatePassword() {
-  var confirmLowerCase = confirm("Would you like to use lowercase letters?");
+  var confirmLowerCase = confirm("Would you like to use lowercase letters? Click 'ok' for yes and 'cancel' for no.");
   
-  var confirmUpperCase = confirm("Would you like to use uppercase letters?");
+  var confirmUpperCase = confirm("Would you like to use uppercase letters? Click 'ok' for yes and 'cancel' for no.");
   
-  var confirmNumber = confirm("Would you like to use numbers?"); 
+  var confirmNumber = confirm("Would you like to use numbers? Click 'ok' for yes and 'cancel' for no."); 
  
-  var confirmSpecial = confirm("Would you like to use spectial characters?");
+  var confirmSpecial = confirm("Would you like to use spectial characters? Click 'ok' for yes and 'cancel' for no.");
   
   var userAnswer5 = prompt("How many characters would you like your password? Type a number between 8 and 128");
   
