@@ -45,18 +45,11 @@ function generatePassword() {
     console.log("after", superString);
   }
   
-  if (userAnswer5 < 8) {
+  if (userAnswer5 < 8, userAnswer5 > 128) {
     alert("Your selection must be between 8 and 128! You must start over! Please hit 'ok'.");
     if (confirmuseranswer5 === true)
     return;
     }
-
-  if (userAnswer5 > 128) {
-    alert("Your selection must be between 8 and 128! You must start over! Please hit 'ok'.");
-      f (confirmuseranswer5 === true)
-    return;
-    }
-
 
 console.log(userAnswer5);
 
