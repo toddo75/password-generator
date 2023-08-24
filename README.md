@@ -40,6 +40,8 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Link
 
+https://toddo75.github.io/password-generator/
+
 ## License
 
 see license in repo
